@@ -11,9 +11,14 @@
 
 ### Base de datos /Database
 
-Lo mas relevante es utilizar estos comandos para poblar la base de datos si se despliega en Heroku.
+Lo mas relevante es utilizar estos comandos para poblar la base de datos si se despliega en Heroku. / The most important thing is to use these commands to populate the database if it is deployed in Heroku.
 ```
 git subtree push --prefix myapi heroku master
 heroku run rake db:migrate
 heroku run rake db:seed
 ```
+
+### Utilización / Use
+
+Para listar las flores dirigete a la página principal o a /flowers. Para mostrar una flor usa su id de esta manera: /flowers/id
+To list the flowers, go to the main page or to /flowers. To show a flower use its id like this: /flowers/id
