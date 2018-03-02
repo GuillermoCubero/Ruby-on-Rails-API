@@ -21,7 +21,7 @@ Things you may want to cover:
 
 * Deploy with:
 ''
-git subtree push --prefix <subfolder> heroku master
+git subtree push --prefix myapi heroku master
   ''
 
 * ...
