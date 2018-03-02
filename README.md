@@ -9,6 +9,8 @@
 #### Puedes visitar el despligue en Heroku aquí: https://myrubyapi.herokuapp.com
 #### You can visit the Heroku deployment here: https://myrubyapi.herokuapp.com
 
+![](https://seeklogo.com/images/F/flor-do-surf-logo-C4299CF0E6-seeklogo.com.png)
+
 ### Base de datos /Database
 
 Lo mas relevante es utilizar estos comandos para desplegar y poblar la base de datos si se despliega en Heroku. / The most important thing is to use these commands to deploy and populate the database if it is deployed in Heroku.
