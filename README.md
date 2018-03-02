@@ -22,6 +22,8 @@ Things you may want to cover:
 * Deploy with:
 ''
 git subtree push --prefix myapi heroku master
+heroku run rake db:migrate
+heroku run rake db:seed
   ''
 
 * ...
