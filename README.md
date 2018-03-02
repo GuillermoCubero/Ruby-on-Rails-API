@@ -1,5 +1,5 @@
 # Proyecto de creación de una API en Ruby on Rails / Creation of a Ruby on Rails project
-
+***
 #### En este README está documentada toda la información necesaria para usar el prototipo de acortador de URLs.
 #### This README documents all the necessary information to use the URL shortener prototype.
 
@@ -10,7 +10,7 @@
 #### You can visit the Heroku deployment here: https://myrubyapi.herokuapp.com
 
 ![](https://seeklogo.com/images/F/flor-do-surf-logo-C4299CF0E6-seeklogo.com.png)
-
+***
 ### Base de datos /Database
 
 Lo mas relevante es utilizar estos comandos para desplegar y poblar la base de datos si se despliega en Heroku. / The most important thing is to use these commands to deploy and populate the database if it is deployed in Heroku.
