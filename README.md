@@ -11,7 +11,7 @@
 
 ### Base de datos /Database
 
-Lo mas relevante es utilizar estos comandos para poblar la base de datos si se despliega en Heroku. / The most important thing is to use these commands to populate the database if it is deployed in Heroku.
+Lo mas relevante es utilizar estos comandos para desplegar y poblar la base de datos si se despliega en Heroku. / The most important thing is to use these commands to deploy and populate the database if it is deployed in Heroku.
 ```
 git subtree push --prefix myapi heroku master
 heroku run rake db:migrate
