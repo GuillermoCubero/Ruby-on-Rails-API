@@ -1,29 +1,24 @@
-# README
+# Proyecto de creación de una API en Ruby on Rails / Creation of a Ruby on Rails project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### En este README está documentada toda la información necesaria para usar el prototipo de acortador de URLs.
+#### This README documents all the necessary information to use the URL shortener prototype.
 
-Things you may want to cover:
+#### Esto es una API creada en Ruby on Rails que dada una id devuelve un objeto JSON con una flor compuesta por su nombre, color y un integer llamado sum.
+#### This is an API created with Ruby on Rails that given an id returns a JSON object with a flower composed of its name, color and an integer called sum.
 
-* Ruby version
+#### Puedes visitar el despligue en Heroku aquí: https://myrubyapi.herokuapp.com
+#### You can visit the Heroku deployment here: https://myrubyapi.herokuapp.com
 
-* System dependencies
+### Base de datos /Database
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deploy with:
-''
+Lo mas relevante es utilizar estos comandos para poblar la base de datos si se despliega en Heroku. / The most important thing is to use these commands to populate the database if it is deployed in Heroku.
+```
 git subtree push --prefix myapi heroku master
 heroku run rake db:migrate
 heroku run rake db:seed
-  ''
+```
 
-* ...
+### Utilización / Use
+
+Para listar las flores dirigete a la página principal o a /flowers. Para mostrar una flor usa su id de esta manera: /flowers/id
+To list the flowers, go to the main page or to /flowers. To show a flower use its id like this: /flowers/id
